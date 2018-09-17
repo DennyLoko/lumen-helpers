@@ -1,0 +1,15 @@
+{
+    "name": "dennyloko/lumen-helpers",
+    "description": "A collection of Lumen helpers",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/lumen-framework": "5.5.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "DennyLoko\\Laravel\\Lumen\\": "src/"
+        }
+    }
+}
